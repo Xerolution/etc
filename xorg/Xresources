@@ -1,0 +1,40 @@
+#include "/home/zero/etc/colors/vanilla"
+
+! URxvt
+URxvt.termName:			 rxvt
+URxvt.geometry:			 80x20
+! URxvt*font: 			 xft:lemon:size=8
+URxvt*font: 			 -*-lemon-*-*-*-*-*-*-*-*-*-*-*-*
+URxvt*boldFont: 		 -*-lemon-*-*-*-*-*-*-*-*-*-*-*-*
+URxvt*italicFont: 		 -*-lemon-*-*-*-*-*-*-*-*-*-*-*-*
+URxvt*bolditalicFont: 		 -*-lemon-*-*-*-*-*-*-*-*-*-*-*-*
+URxvt.scrollBar:		 false
+URxvt.transparent:		 false
+URxvt.url-select.launcher:	 firefox
+
+! These options only take effect on startup.
+st.termname:     xterm-256color
+st.shell:        /bin/mksh
+st.tabspaces:    4
+
+
+!!!!! ST-SETTINGS  !!!!!
+! These options can be reloaded live.
+st.font:         -*-lemon-*-*-*-*-*-*-*-*-*-*-*-*;
+st.borderpx:     2
+st.cursorshape:  2
+st.bold_font:    0
+st.xfps:         120
+st.actionfps:    30
+st.chscale:      0.8
+st.cwscale:      0.8
+st.blinktimeout: 800
+st.bellvolume:   100
+
+Xft.dpi: 	 96
+Xft.antialias:	 true
+Xft.hinting:	 true
+Xft.rgba:	 rgb
+Xft.autohint:	 false
+Xft.hintstyle:	 hintslight
+Xft.lcdfilter:	 lcddefault

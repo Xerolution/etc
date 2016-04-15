@@ -1,0 +1,21 @@
+# Keybindings
+
+# launch urxvt
+mod4 + t
+	st -g 80x20
+
+# launch firefox
+mod4 + f
+	firefox
+
+# launch mutt in urxvt
+mod4 + e
+	st -g 100x50 -e mutt
+
+# launch ranger in urxvt
+mod4 + s
+	st -g 80x20 -e ranger
+
+# spawn dmenu
+mod4 + w
+	dmenu_run -q -s 1 -h 18 -w 560 -x 440 -fn lemon-8 -p ' ⮗ Run:' -nb '#f3f3f3' -nf '#707070' -sb '#f3f3f3' -sf '#95c1c0' -dim .3

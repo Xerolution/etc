@@ -1,0 +1,14 @@
+/dconf/*
+/fontconfig/*
+/gtk-2.0/*
+/htop/*
+/ImageMagick/*
+!/mpd
+/mpd/*
+!/mpd/mpd.conf
+/mutt/*
+/pulse/*
+!/ranger
+/ranger/*
+!/ranger/*.conf
+/user*
