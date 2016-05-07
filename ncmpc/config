@@ -7,7 +7,7 @@
 #host = "localhost"
 
 ## Connect to mpd on the specified port.
-port = 6660
+port = 6600
 
 ## Connect to mpd using the specified password.
 #password = "secret"
